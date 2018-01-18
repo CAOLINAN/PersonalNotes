@@ -1,0 +1,8 @@
+git rm -r -n --cached 文件/文件夹名称
+git rm -r --cached 文件/文件夹名称
+git commit -m "提交说明"
+git push
+
+修改本地 .gitignore 文件
+git commit -m "提交说明"
+git push

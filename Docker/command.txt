@@ -1,0 +1,29 @@
+docker build -t gbi/python_web:1.0.3 .
+docker tag gbi/python_web:1.0.3 18.217.61.128:5000/gbi_python_web:
+docker push  18.217.61.128:5000/gbi_python_web
+docker pull  18.217.61.128:5000/gbi_python_web
+docker run -d --name web-8001 -p 8001:8000 18.217.61.128:5000/gbi_python_web:1.0.4
+
+curl http://18.217.61.128:5000/v1/search
+
+docker tag gbi/nginx:1.0.3  18.217.61.128:5000/gbi_nginx
+
+docker push  18.217.61.128:5000/gbi_nginx
+
+docker pull  18.217.61.128:5000/gbi_nginx
+
+DOCKER_OPTS="$DOCKER_OPTS --insecure-registry=18.217.61.128:5000"
+
+curl --header "Accept: application/vnd.docker.distribution.manifest.v2+json" \
+  -I -X HEAD http://18.217.61.128:5000/v2/gbi_nginx/manifests/1.12.2-alpine \
+  | grep Digest
+
+
+
+curl --header "Accept: application/vnd.docker.distribution.manifest.v2+json" \
+-I -X DELETE http://18.217.61.128:5000/v2/gbi_nginx/manifests/sha256:98b78d0d260bffb11735cdac5a16dc278708c083c2574c523cd532edb4a4b46f
+
+
+docker run -it -p 9099:8080 -d --name registry-web --link registry-srv -e REGISTRY_URL=http://registry-srv:5000/v2 -e REGISTRY_NAME=localhost:5000 hyper/docker-registry-web
+
+docker run -p 80:80 -d --name gbi_nginx-srv -v /usr/share/nginx/gbi:/usr/share/nginx/gbi -v /etc/nginx/conf.d/:/etc/nginx/conf.d/ 18.217.61.128:5000/gbi_nginx:1.0.3
