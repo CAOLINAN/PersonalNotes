@@ -1,0 +1,4 @@
+ git log 文件名
+ git reset commitID 文件名
+ git commit -m "roll back"
+ git push

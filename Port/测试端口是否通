@@ -1,0 +1,5 @@
+tcp 测试端口常用telnet
+
+udp测试端口
+    linux
+        nc -vuz ip port
