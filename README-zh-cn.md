@@ -1,2 +1,2 @@
-# PersonalNotes
-This is some personal notes to recode some technology.It's useful for me to query some things that I have done before.
+# 个人笔记
+个人的一些学习笔记，方便查询以前干的事，当然也可用来github的项目的一个个人模板。
