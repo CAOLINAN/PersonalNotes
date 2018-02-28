@@ -8,4 +8,5 @@ License
 
 PersonalNotes is released under the MIT License. See the LICENSE_ file for more
 details.
+
 .. _LICENSE: https://github.com/CAOLINAN/PersonalNotes/blob/master/lincense/LICENSE
