@@ -12,7 +12,7 @@ eclipse插件，跳过
 
 ## PyNSource
 
-带有命令行和gui工具。生成简陋，但是缺点是不支持项目文件，只支持单个文件，而且不可修改。
+带有命令行和gui工具。生成简陋，但是缺点是不支持项目文件，只支持单个文件，而且不可修改。安装包见[这里](https://github.com/CAOLINAN/PersonalNotes/releases/tag/0.0.1)
 
 ## Lumpy 
 
@@ -31,8 +31,12 @@ eclipse插件，跳过
 
 ## pywebuml 
 
-可以用作其他语言，如JAVA和C#，未使用。利用的graphviz (graphviz 是解析DOT语言脚本的工具包)
+可以用作其他语言，如JAVA和C#，未使用。利用的graphviz (graphviz 是解析DOT语言脚本的工具包)，安装包见[这里](https://github.com/CAOLINAN/PersonalNotes/releases/tag/0.0.1)
 
 ## pycharm
 
 推荐，简单好用，但是得是专业版才有的功能，只需右击文件生成UML图即可，对于其他类只能手动引入。
+
+## [Enterprise Architect](http://www.sparxsystems.com/products/ea/)
+
+企业级商用UML绘制工具，需要专业技能，可以导入多种语言的项目代码，支持多种语言。安装包见[这里](https://github.com/CAOLINAN/PersonalNotes/releases/tag/0.0.1)
