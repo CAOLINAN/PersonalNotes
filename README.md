@@ -6,5 +6,5 @@ This is some personal notes to recode some technology.It's useful for me to quer
 ## License
 -------
 
-PersonalNotes is released under the MIT License. See the [LICENSE](https://github.com/CAOLINAN/PersonalNotes/blob/master/lincense/LICENSE) file for more
+PersonalNotes is released under the MIT License. See the [LICENSE](https://github.com/CAOLINAN/PersonalNotes/blob/master/LICENSE) file for more
 details.
