@@ -1,3 +1,9 @@
-# Serialize
+# Serialize env
 PersonalNotes/Serialize/test_project/win_env/
+# Serialize workdir
 PersonalNotes/Serialize/test_project/.idea/
+# Serialize tool
+PersonalNotes/Serialize/test_project/src/pb_project/protoc-3.5.1-win32
+PersonalNotes/Serialize/test_project/src/pb_project/protoc-3.5.1-win32.zip
+PersonalNotes/Serialize/test_project/src/pb_project/protobuf-python-3.5.1.zip
+PersonalNotes/Serialize/test_project/src/pb_project/protobuf-python-3.5.1
