@@ -14,4 +14,5 @@ PersonalNotes/Serialize/test_project/src/pb_project/protobuf-python-3.5.1
 PersonalNotes/Serialize/test_project/src/thrift_project/gen-py
 PersonalNotes/Serialize/test_project/src/thrift_project/thrift-0.11.0.exe
 
-
+# python
+*.pyc
