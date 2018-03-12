@@ -1,9 +1,17 @@
 # Serialize env
 PersonalNotes/Serialize/test_project/win_env/
+
 # Serialize workdir
 PersonalNotes/Serialize/test_project/.idea/
-# Serialize tool
+
+# Serialize pb tool
 PersonalNotes/Serialize/test_project/src/pb_project/protoc-3.5.1-win32
 PersonalNotes/Serialize/test_project/src/pb_project/protoc-3.5.1-win32.zip
 PersonalNotes/Serialize/test_project/src/pb_project/protobuf-python-3.5.1.zip
 PersonalNotes/Serialize/test_project/src/pb_project/protobuf-python-3.5.1
+
+# Serialize thrift tool
+PersonalNotes/Serialize/test_project/src/thrift_project/gen-py
+PersonalNotes/Serialize/test_project/src/thrift_project/thrift-0.11.0.exe
+
+
