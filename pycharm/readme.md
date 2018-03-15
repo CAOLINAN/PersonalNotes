@@ -10,4 +10,4 @@ pycharm 是JetBrains公司针对python开发的软件，主要包含专业版和
 
 # 快捷方式
 
-导入	
+导入包	alt + enter
