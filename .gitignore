@@ -18,11 +18,11 @@ Serialize/test_project/src/thrift_project/thrift-0.11.0.exe
 *.pyc
 
 #flask-project
-flask\flaskr_project
-flask\venv
-flask\xuemc
-flask\config.py
-flask\config.txt
-flask\main.py
-flask\.idea
-flask\doc
+flask/flaskr_project
+flask/venv
+flask/xuemc
+flask/config.py
+flask/config.txt
+flask/main.py
+flask/.idea
+flask/doc
