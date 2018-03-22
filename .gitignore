@@ -26,3 +26,7 @@ flask/config.txt
 flask/main.py
 flask/.idea
 flask/doc
+
+#pycharm
+.idea
+*.xml
