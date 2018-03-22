@@ -1,7 +1,10 @@
-flask
-[英文文档](http://flask.pocoo.org/docs/0.12/)
-[中文文档](http://docs.jinkan.org/docs/flask/)
-[源码](https://github.com/pallets/flask/)
+**flask**
+
+*[英文文档](http://flask.pocoo.org/docs/0.12/)*
+
+*[中文文档](http://docs.jinkan.org/docs/flask/)*
+
+*[源码](https://github.com/pallets/flask/)*
 
 # 安装
 pip install Flask
@@ -20,7 +23,9 @@ pip install Flask
 ## run
 可接受参数
 > host
+
 > port
+
 > debug
 
 # 路由
@@ -101,7 +106,7 @@ HTTP版本|方法(原始)|方法(新增)
 
 方法描述如下表：
 方法|描述
--|:-
+-- | -------------
 GET|请求指定的页面信息，并返回实体主体
 POST|向指定资源提交数据进行处理请求。可能导致新的资源建立或已有资源修改
 HEAD|类似GET请求，获取报头
@@ -112,7 +117,7 @@ OPTIONS|允许客户端查看服务器性能
 TRACE|回显服务器收到的请求，主要用于测试或诊断
 
 flask处理HTTP方法示例如下:
-```python
+```bash
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
