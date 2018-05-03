@@ -18,14 +18,15 @@ Serialize/test_project/src/thrift_project/thrift-0.11.0.exe
 *.pyc
 
 #flask-project
-flask/flaskr_project
-flask/venv
-flask/xuemc
-flask/config.py
-flask/config.txt
-flask/main.py
-flask/.idea
-flask/doc
+flask_module/flaskr_project
+flask_module/venv
+flask_module/venv_2
+flask_module/xuemc
+flask_module/config.py
+flask_module/config.txt
+flask_module/main.py
+flask_module/.idea
+flask_module/doc
 
 #pycharm
 .idea
