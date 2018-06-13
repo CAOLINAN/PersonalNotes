@@ -41,7 +41,7 @@ set global validate_password_mixed_case_count=1;
 
 ```
 
-安装脚本
+自动化创建数据库脚本（未测试）
 
 ```sh
 # 创建脚本
