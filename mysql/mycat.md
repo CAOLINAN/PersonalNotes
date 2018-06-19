@@ -45,7 +45,34 @@ sudo mv mycat/ /java/
 sudo gedit /etc/environment
 # 添加环境变量 /java/mycat/bin
 source /etc/environment
-mycat start
+mycat start # 后台运行
+mycat console # 前台运行
+mycat stop # 后台停止
 cd /java/mycat/conf
 
 ```
+
+## errors:
+
+前台运行时直接看错误信息，后台运行时查看错误日志logs/mycat.log
+
+### Unable to start JVM: No such file or directory 
+
+```sh
+gedit /java/mycat/conf/wrapper.conf
+wrapper.java.command=/java/jdk-10.0.1/bin/java
+```
+
+## ERROR 3009 (HY000): java.lang.IllegalArgumentException: Invalid DataSource:0
+
+无效的数据源，连接问题，需要检查配置schema.xml，检查mysql有效用户等其他mysql连接问题。
+
+# [MyCat 配置](https://github.com/MyCATApache/Mycat-Server#mycat%E9%85%8D%E7%BD%AE%E5%85%A5%E9%97%A8)
+
+# install [MyCat_web](https://blog.csdn.net/yu757371316/article/details/54427538)
+
+## install zookeeper
+
+
+insert into travelrecord(id,user_id,traveldate,fee,days)  values(4999999,'Job',20160102,100,10);
+5000001
