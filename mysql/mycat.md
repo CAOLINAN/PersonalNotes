@@ -73,6 +73,3 @@ wrapper.java.command=/java/jdk-10.0.1/bin/java
 
 ## install zookeeper
 
-
-insert into travelrecord(id,user_id,traveldate,fee,days)  values(4999999,'Job',20160102,100,10);
-5000001
