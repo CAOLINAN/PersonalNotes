@@ -6,3 +6,10 @@ git push
 修改本地 .gitignore 文件
 git commit -m "提交说明"
 git push
+
+添加 远程仓库
+git remote add origin HTML
+
+添加分支并切换
+git checkout -b new_branch origin/master
+需要先pull一下.
